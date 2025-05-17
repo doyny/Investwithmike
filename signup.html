@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sign Up - Invest with Mike</title>
+  <style>
+    :root {
+      --primary: #4a00e0;
+      --secondary: #8e2de2;
+      --accent: #00e3ae;
+      --light: #ffffff;
+      --dark: #1e1e2f;
+      --gray: #f9f9f9;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to bottom right, var(--primary), var(--secondary));
+      color: var(--dark);
+    }
+
+    .container {
+      max-width: 400px;
+      margin: 60px auto;
+      padding: 30px;
+      background: var(--light);
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    }
+
+    h2 {
+      text-align: center;
+      color: var(--primary);
+      margin-bottom: 10px;
+    }
+
+    p {
+      text-align: center;
+      font-size: 0.95em;
+      margin-bottom: 30px;
+      color: #555;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 15px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+    }
+
+    button {
+      width: 100%;
+      background-color: var(--accent);
+      color: var(--dark);
+      padding: 14px;
+      font-weight: bold;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    button:hover {
+      background-color: #00cba0;
+    }
+
+    .back-link {
+      display: block;
+      text-align: center;
+      margin-top: 20px;
+      text-decoration: none;
+      color: var(--primary);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h2>Create Your Free Account</h2>
+    <p>Join thousands of investors growing their wealth with Mike.</p>
+
+    <form onsubmit="event.preventDefault(); alert('Account created successfully!')">
+      <input type="text" placeholder="Full Name" required />
+      <input type="email" placeholder="Email Address" required />
+      <input type="password" placeholder="Create Password" required />
+      <button type="submit">Sign Up & Start Investing</button>
+    </form>
+
+    <a href="index.html" class="back-link">Back to Home</a>
+  </div>
+
+</body>
+</html>
