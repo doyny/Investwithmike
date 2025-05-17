@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Invest with Mike</title>
+  <style>
+    :root {
+      --primary: #6a00f4;
+      --secondary: #ff61d2;
+      --highlight: #00f7ff;
+      --light: #ffffff;
+      --dark: #1f1f2e;
+      --gray: #f3f3f3;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom right, var(--primary), var(--secondary));
+      color: var(--light);
+    }
+
+    header {
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2em;
+      max-width: 600px;
+      margin: 0 auto;
+      color: #f3f3f3;
+    }
+
+    .cta-section {
+      text-align: center;
+      padding: 40px 20px;
+      background: var(--light);
+      color: var(--dark);
+      border-top-left-radius: 40px;
+      border-top-right-radius: 40px;
+    }
+
+    .cta-section h2 {
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+
+    .cta-section p {
+      font-size: 1.1em;
+      margin-bottom: 25px;
+    }
+
+    .cta-section a {
+      background-color: var(--highlight);
+      color: var(--dark);
+      padding: 14px 28px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: all 0.3s ease;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .cta-section a:hover {
+      background-color: #01e1ec;
+      transform: scale(1.05);
+    }
+
+    .features, .reviews {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .features h3, .reviews h3 {
+      font-size: 1.6em;
+      margin-bottom: 20px;
+    }
+
+    .features ul {
+      list-style: none;
+      padding: 0;
+      color: #f0f0f0;
+    }
+
+    .features li {
+      margin-bottom: 10px;
+      font-size: 1.1em;
+    }
+
+    .review-cards {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .review {
+      background: var(--light);
+      color: var(--dark);
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+      font-size: 0.95em;
+    }
+
+    .review strong {
+      display: block;
+      margin-top: 10px;
+      font-size: 1em;
+      color: #555;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #ddd;
+    }
+
+    @media (min-width: 600px) {
+      .review-cards {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Invest with Mike</h1>
+    <p>Smart. Simple. Profitable. Join thousands growing their wealth with Mike’s proven investment plans.</p>
+  </header>
+
+  <div class="cta-section">
+    <h2>Ready to build your financial future?</h2>
+    <p>It takes just 2 minutes to get started. No fees. No stress. Just smart investing.</p>
+    <a href="signup.html">Create Free Account</a>
+  </div>
+
+  <div class="features">
+    <h3>Why Choose Mike?</h3>
+    <ul>
+      <li>✅ Beginner-friendly, no experience needed</li>
+      <li>✅ Automated smart investing plans</li>
+      <li>✅ Real-time performance tracking</li>
+      <li>✅ Trusted by 10,000+ investors</li>
+    </ul>
+  </div>
+
+  <div class="reviews">
+    <h3>What Our Investors Say</h3>
+    <div class="review-cards">
+      <div class="review">
+        “I started with zero knowledge. Now, I watch my money grow every month. Thank you, Mike!”
+        <strong>– Sarah O., Lagos</strong>
+      </div>
+      <div class="review">
+        “Simple UI, smart tools, and great returns. I recommend it to anyone who wants to invest stress-free.”
+        <strong>– James K., Abuja</strong>
+      </div>
+      <div class="review">
+        “This platform gave me confidence. My investments have grown 25% in just 6 months.”
+        <strong>– Linda N., Port Harcourt</strong>
+      </div>
+      <div class="review">
+        “Mike’s plan made me believe in digital investing again. Highly recommended!”
+        <strong>– Chuks M., Enugu</strong>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Invest with Mike. Secure. Smart. Successful.
+  </footer>
+
+</body>
+</html>
